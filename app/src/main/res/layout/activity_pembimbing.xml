@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pembimbing">
+
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Search Here"
+            android:iconifiedByDefault="false"
+            android:id="@+id/searchView"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+    <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="1dp"
+    app:cardElevation="30dp"
+    app:contentPadding="10dp">
+
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Abdullah Azzam, S.Kom"
+        android:layout_marginLeft="90dp"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="SMK RUS Kudus"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="1dp"
+        app:cardElevation="30dp"
+        app:contentPadding="10dp">
+
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Aditya Redha Kusuma, S.Pd."
+            android:layout_marginLeft="90dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="SMK RUS Kudus"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="1dp"
+        app:cardElevation="30dp"
+        app:contentPadding="10dp">
+
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="	Agam Amintaha, S. Kom"
+            android:layout_marginLeft="90dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="SMK RUS Kudus"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="1dp"
+        app:cardElevation="30dp"
+        app:contentPadding="10dp">
+
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Agus Hamdun, Amd. Kom"
+            android:layout_marginLeft="90dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="SMK RUS Kudus"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="1dp"
+        app:cardElevation="30dp"
+        app:contentPadding="10dp">
+
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Ahmad Widodo, S.E"
+            android:layout_marginLeft="90dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="SMK RUS Kudus"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="1dp"
+        app:cardElevation="30dp"
+        app:contentPadding="10dp">
+
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Aji Suryawan, S.Kom"
+            android:layout_marginLeft="90dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="SMK RUS Kudus"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="1dp"
+        app:cardElevation="30dp"
+        app:contentPadding="10dp">
+
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Ali Imron, S.Pd."
+            android:layout_marginLeft="90dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="SMK RUS Kudus"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Anjas Syifatul Anam"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Arif Agus Kurniawan, S.Kom"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Arif Jauhari, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Aris Suryanto, S.Ds."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Ariyo Fajar Pamungkas, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Atik Fatmalasari, A.Md.Graf"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Diyah Fitriya Anggraeni, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Dra Hj Sayyidah"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Drs. H. Ali Ridlo"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Drs. H.A. Mifdloli, M.Pd.I."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Drs.H.Masruhan"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Dwi Nur Efendi, A.Md. Graf"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Fatimatuz Zahro, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Fauziyah Lisfana, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Hariratul Aini Rasyida.,S.Psi."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Herminingsih, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Imam Muhtadi, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Jumanto, S.Pd.I"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Khusniyati, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Muhammad Azmi Maulana, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Muhklis Wahyudi,S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Mukh. Rif'an, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Nailil M. Atalina, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Niken Riyantika Eryani, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Nova Ayu Arisjanti, M.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Ridho Agung Kurniawan, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Riska Herdika Yutari, S.Sn."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Ristina Widiyanti,S.Pd"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Rita Susiyanti, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Riza Budi Prasetyo, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Rofikul Ikhsan"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Sahid, A.Md.Graf"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Sella Ayu Fitrya Sari, A.Md.Ps."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Siti Widiyasih, M.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Solichul Rochim, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Sumiyati,S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Susilo, S.Pd, M.A."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Thoifur Albusthomi, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="1dp"
+            app:cardElevation="30dp"
+            app:contentPadding="10dp">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Ula Himatul Aliyah, S.Pd."
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="SMK RUS Kudus"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
